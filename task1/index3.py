@@ -3,7 +3,7 @@ with open ("input.txt","r") as file:
 file.close()
 with open("outline.txt","w") as file:
     file.write(str(a+b))
-file.close()
+
 
 
 
