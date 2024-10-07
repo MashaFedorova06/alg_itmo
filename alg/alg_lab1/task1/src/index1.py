@@ -19,7 +19,6 @@ with open("output.txt","w") as file:
     if 0<=n<=10**3 and min(arr)>=-10**9 and max(arr)<10**9:
         #testMaxArr = [random.randint(-10**9, 10**9) for i in range(10**3)] 
         insertionSort(n,arr)
-        
         file.write(" ".join(str(a) for a in arr))
     else:
         print("Число в массиве по модулю превосходит 10^9 или количсетво элементов не соответствует ограничниям")
